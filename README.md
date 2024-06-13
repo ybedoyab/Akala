@@ -22,13 +22,3 @@ Este repositorio contiene el código fuente de Akala, una plataforma de aprendiz
 3. Haz tus cambios y haz commits explicativos (`git commit -m 'Agrega nueva característica: X'`).
 4. Haz push a la rama (`git push origin feature/nueva-caracteristica`).
 5. Abre un Pull Request.
-
-## Equipo 👥
-
-- Santiago Acevedo ([@underworld](https://github.com/usuario))
-- Nombre Apellido ([@usuario](https://github.com/usuario))
-- Nombre Apellido ([@usuario](https://github.com/usuario))
-
-## Licencia 📝
-
-Este proyecto está bajo la licencia [Nombre de la Licencia]. Para más detalles, consulta el archivo [LICENSE](LICENSE).
