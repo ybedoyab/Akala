@@ -26,9 +26,5 @@ Este repositorio contiene el código fuente de Akala, una plataforma de aprendiz
 ## Equipo 👥
 
 - Nombre Apellido ([@usuario](https://github.com/usuario))
+- Nombre Apellido ([@usuario](https://github.com/ybedoyab))
 - Nombre Apellido ([@usuario](https://github.com/usuario))
-- Nombre Apellido ([@usuario](https://github.com/usuario))
-
-## Licencia 📝
-
-Este proyecto está bajo la licencia [Nombre de la Licencia]. Para más detalles, consulta el archivo [LICENSE](LICENSE).
