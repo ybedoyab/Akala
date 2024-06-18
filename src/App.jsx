@@ -1,29 +1,17 @@
-// App.jsx
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
+import Home from "./Views/Home/Home";
+import NotFound from "./Views/NotFound/NotFound";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
-    <div id="root">
-      <NavBar />
-      <main>
-       <p>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-       <h1>ALo</h1>
-       <h1>ALo</h1>
-       <h1>ALo</h1>
-       <h1>ALo</h1>
-       <h1>ALo</h1>
-       <h1>ALo</h1>
-
-      </main>
-      <Footer />
-    </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Ruta para el formulario de inicio de sesión */}
+        <Route path="/*" element={<NotFound />} /> {/* Ruta para el resto de la aplicación */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,28 +1,44 @@
-.NavbarItems {
+.nav-container{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between; /* Distribuye los elementos horizontalmente */
-    padding: 10px;
-    background-color: white; /* Color de fondo de la caja blanca */
-    border-radius: 20px; /* Bordes circulares */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado */
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 50px;
+    .navbar {
+        top: 2rem;
+        display: flex;
+        z-index: 1000;
+        align-items: center;
+        justify-content: space-between; /* Distribuye los elementos horizontalmente */
+        width: 90%;
+        padding: .5rem 2rem;
+        background-color: white; /* Color de fondo de la caja blanca */
+        border-radius: 20px; /* Bordes circulares */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombreado */
+        position: fixed;
+        .items{
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+        }
+        .profile{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            cursor: pointer;
+        }
+    }
+
 }
 
 
+
 .NavItem {
-    margin: 40px; /* Espacio entre los botones */
     font-weight: 1000;
     text-decoration: none;
     color: black;
     position:relative; /* Establece posición relativa para que la línea pueda ser posicionada correctamente */
     flex: 1;
 }
-.centrar{
-    margin-right: 430px;
-}
+
 .NavItem:hover::after {
     content: '';
     position: absolute;
@@ -39,5 +55,5 @@
 }
 
 .Logo img {
-    width: 160px; /* Tamaño del logo */
+    width: 10rem; /* Tamaño del logo */
 }

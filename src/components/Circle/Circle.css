@@ -1,0 +1,9 @@
+.circle{
+	top: 0;
+	width: 40rem;
+  height: 40rem;
+  background: #00B6F0;
+  clip-path: ellipse(50% 40% at 0% 1%);
+	position: absolute;
+	z-index: -100;
+}
