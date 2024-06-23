@@ -11,11 +11,7 @@ const Home = () => {
 		<Circle />
 		
 		<main>
-			<p>HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-			<h1>ALo</h1>
-			<h1>ALo</h1>
-			<h1>ALo</h1>
-			<h1>ALo</h1>
+
 		</main>
 		<Footer />
 		</div>
