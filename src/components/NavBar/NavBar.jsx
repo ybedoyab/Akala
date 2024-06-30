@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import logo from "../../assets/LogoTextoHorizontal.png";
 import "./NavBar.css"; // Importa el archivo CSS
 
